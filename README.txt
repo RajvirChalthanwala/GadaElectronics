@@ -22,3 +22,15 @@ Comitted to github repo....
 Sucessfully :)
 Very happy!!!!!!!
 No errors so far..
+
+As per the steps mentioned below I commented out the SSHL Port
+in order to use any of the server which was created..
+updated the startup.cs file and the appconfuigurations.json
+as per requirement ////
+
+I again updated the line 31 present in the Startup.cs file 
+which was about the SqlServer :)
+Now it was very important to save it again as per Andrew Stelle....
+It is important to save the file and commit it at the same time to avoid 
+bunch of errors...
+No errors so far!!
