@@ -1,4 +1,4 @@
-﻿@model IEnumerable<GadaElectronics.Models.TonyTv>
+﻿@model GadaElectronics.Models.TonyTvCountryViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -12,7 +12,10 @@
 
 <form asp-controller="TonyTvs" asp-action="Index" method="get">
     <p>
-        Brand Name: <input type="text" name="SearchString"  />
+        <select asp-for="TonyTvCountry" asp-items="Model.OriginCountry">
+            <option value="">All</option>
+        </select>
+        Brand Name: <input type="text" name="SearchString" />
         <input type="submit" value="Filter" />
     </p>
 </form>
@@ -20,53 +23,54 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Brand)
+                @Html.DisplayNameFor(model => model.TonyTvs[0].Brand)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.TonyTvs[0].Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.OriginCountry)
+                @Html.DisplayNameFor(model => model.TonyTvs[0].OriginCountry)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SerialNumber)
+                @Html.DisplayNameFor(model => model.TonyTvs[0].SerialNumber)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DisplayClearity)
+                @Html.DisplayNameFor(model => model.TonyTvs[0].DisplayClearity)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Size)
+                @Html.DisplayNameFor(model => model.TonyTvs[0].Size)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Brand)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OriginCountry)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SerialNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DisplayClearity)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Size)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.TonyTvs)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Brand)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OriginCountry)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SerialNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DisplayClearity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Size)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

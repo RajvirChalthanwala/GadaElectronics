@@ -20,18 +20,32 @@ namespace GadaElectronics.Controllers
         }
 
         // GET: TonyTvs
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string TonyTvCountry, string searchString)
         {
-            var TonyTv = from m in _context.TonyTv
+            IQueryable<string> genreQuery = from m in _context.TonyTv
+                                            orderby m.OriginCountry
+                                            select m.OriginCountry;
+
+            var TonyTvs = from m in _context.TonyTv
                          select m;
 
-            if (!String.IsNullOrEmpty(searchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
-                TonyTv = TonyTv.Where(s => s.Brand.Contains(searchString));
+                TonyTvs = TonyTvs.Where(s => s.Brand.Contains(searchString));
             }
 
-            return View(await TonyTv.ToListAsync());
-            // return View(await _context.TonyTv.ToListAsync());
+            if (!string.IsNullOrEmpty(TonyTvCountry))
+            {
+                TonyTvs = TonyTvs.Where(x => x.OriginCountry == TonyTvCountry);
+            }
+
+            var TonyTvCountryVM = new TonyTvCountryViewModel
+            {
+                OriginCountry = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                TonyTvs = await TonyTvs.ToListAsync()
+            };
+
+            return View(TonyTvCountryVM);
         }
 
         [HttpPost]

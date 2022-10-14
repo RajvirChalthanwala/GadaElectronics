@@ -15,7 +15,7 @@ and added the content in it using the file provided
 I added my useful properties which are:
 "Id", "Brand", "OriginCountry", "Price", "Size", "SerialNumber" and "DiaplayClearity"....
 Rebuild the program...
-No errors so far Good newsssssszzzzz.... :)
+No errors so far Good newsss... :)
 Comitted to git repos..
 and sucessfully saved the content untill now.
 
@@ -32,7 +32,7 @@ No errors so far..
 As per the steps mentioned below I commented out the SSHL Port
 in order to use any of the server which was created..
 updated the startup.cs file and the appconfuigurations.json
-as per requirement ////
+as per requirement 
 
 I again updated the line 31 present in the Startup.cs file 
 which was about the SqlServer :)
@@ -77,7 +77,7 @@ Lets see what happens.... I hope no error occurs now again.......
 
 - Running Command "Add-Migration InitialCreate -Context GadaElectronicsContext"
 ....... :)!
- No error occured Very Happy ;) <3
+ No error occured ;)
 
  Running Command "Update-Database -Context GadaElectronicsContext"
  ...... :)!
@@ -135,5 +135,12 @@ filtered the brand name of the TV database and fetching the selected data from t
 All clear done!!!!
 No errors occured..... Committed the code to Git hub and Saved the data
 Rebuild the program and run it again.. :)
-Very Happy !!! OHwwwwwww.
+Very Happy !!!
 
+12:37AM
+I completed the editing of the Index.cshtml and Created new class 
+"TonyTvCountryViewModel" in the models folder for the search button on Origin Country...
+Secondly, I edited the file Views > TonyTv.cs and changed the expected content....
+now rebuilding the code and running it again....
+Hope it dont show's up error !!!!!
+Let's Check ////
