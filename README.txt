@@ -197,3 +197,18 @@ After a long Break I continued working on the AboutUs.cshtml and added some cool
 pictures and edited the home page to make it look nice!!!
 Saved the content and now am going to upload it to git repo....
 Nothing wrong....
+
+6:48 PM 
+Last but not Least I finally Updated the AboutUs.cshtml file 
+as per the needs of the proffessor and continued to:
+- run the command code
+- examine the error
+- commit to github
+- save the content....
+
+Everything is so good !
+No Error detected!!!!!
+Let's finally commit it and Submit it to the proffessor !!!!
+
+I am Done with the application !
+Very Well Done.........
