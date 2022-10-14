@@ -37,7 +37,7 @@ namespace GadaElectronics.Models
         [Display(Name = "Launch Date")]
         public DateTime LaunchDate { get; set; }
        
-        [Range(1, 3000)]
+        [Range(1, 5)]
         public int TvRatings { get; set; }
     }
 }
