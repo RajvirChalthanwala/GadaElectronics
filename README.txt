@@ -1,4 +1,10 @@
 ﻿2022-10-13   05:49PM  -------------------------------------------------------------
+
+Name: Rajvir Chalthanwala
+Student Id: 0779860
+Purpose: .NET framework Web application
+
+
 Hello! I am going to make new web application named "GadaElectronics"
 which I commited to the git repository by the time and I run the application after
 building it and everything is good so far... :)
@@ -82,14 +88,35 @@ Tables appears on the web application and now,
 saving the application and rebuilding it 
 - run it again
 - commit it to Git repos.....
-
 Taking rest.... )
 
 2022-10-13    9:55PM  ----------------------------------------------------------------
 Updated the Index.cshtml for the main heading
 - created the link to our main database table access
 - by changing the line og _layout.cshtml
-
 Rebuild the program
 No error found!!!!
 Save it and run it...... :)
+
+10:02PM
+As per the tutorials I checked the database server with the SQL server
+- open SQL SERVER/ LocalDb/ GadaElectronics/ View Data and View Designer
+Everything went successfull;
+No error so far :)
+
+10:11PM
+Creating the SeedData in Models folder...
+Keeping the records as per my field properties and 
+making the database formal....
+Let try it what happens?
+
+10:33PM
+Created the SeedData file by making it the cs class file and 
+wrote the data accordingly and kept it updated and saved it and 
+comitted it to Github repository....
+Let's rebuild it and run the program 
+if any errors occurs solve it or else save it and procced ahead to take it in one shot!! >>>> :)
+Updated code accordingly in Program.cs
+Updatred database in package Manager Comsole 
+Run the application to ncheck the seeded data.
+So far everything is good no changes needed !!!
