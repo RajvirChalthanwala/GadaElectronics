@@ -76,9 +76,20 @@ Lets see what happens.... I hope no error occurs now again.......
  Running Command "Update-Database -Context GadaElectronicsContext"
  ...... :)!
 
- 9:47PM
+9:47PM
 No errors so far...
 Tables appears on the web application and now,
 saving the application and rebuilding it 
 - run it again
 - commit it to Git repos.....
+
+Taking rest.... )
+
+2022-10-13    9:55PM  ----------------------------------------------------------------
+Updated the Index.cshtml for the main heading
+- created the link to our main database table access
+- by changing the line og _layout.cshtml
+
+Rebuild the program
+No error found!!!!
+Save it and run it...... :)
