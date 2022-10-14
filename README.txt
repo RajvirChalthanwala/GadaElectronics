@@ -59,3 +59,26 @@ Rebuild the code... [9:34PM]
 Saved the program code and added to the GIT...
 Running the Program...
 
+Got the error which was expected :)
+about the migrations and update...
+Now going to packgae console manager we need to run
+- Add Migrations InitialCreate -Context -GadaElectronicsContext
+- Add Update -Context -GadaElectronicsContext
+
+Running the program again after saving it and 
+Rebuilding it !!!
+Lets see what happens.... I hope no error occurs now again.......
+
+- Running Command "Add-Migration InitialCreate -Context GadaElectronicsContext"
+....... :)!
+ No error occured Very Happy ;) <3
+
+ Running Command "Update-Database -Context GadaElectronicsContext"
+ ...... :)!
+
+ 9:47PM
+No errors so far...
+Tables appears on the web application and now,
+saving the application and rebuilding it 
+- run it again
+- commit it to Git repos.....
