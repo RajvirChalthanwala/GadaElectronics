@@ -42,3 +42,20 @@ again saved the work and comitted to git hub repo....
 No errors so far 
 Rebuild the program..
 Run the program :)
+Good Bye, going for break
+
+9:31PM
+Returning back to confirming the Scaffolding items and 
+sucessfully created the four CRUD pages...
+-Rebuild the program and
+-saved the web application to the github repository.....
+No errors so far..
+
+Continuing with the most important part of the web application,
+- adding the migrations
+- add update
+
+Rebuild the code... [9:34PM]
+Saved the program code and added to the GIT...
+Running the Program...
+
