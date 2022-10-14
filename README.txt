@@ -191,3 +191,9 @@ Lot of content was added by me in the About us file and now i am surfing for Ima
 lets save the code and commit till the content updations.....
 Let get back and see :)
 No errors so far !!!!!
+
+5:59 PM 
+After a long Break I continued working on the AboutUs.cshtml and added some cool
+pictures and edited the home page to make it look nice!!!
+Saved the content and now am going to upload it to git repo....
+Nothing wrong....
