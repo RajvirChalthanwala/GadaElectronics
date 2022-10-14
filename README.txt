@@ -13,3 +13,12 @@ No errors so far Good newsssssszzzzz.... :)
 Comitted to git repos..
 and sucessfully saved the content untill now.
 
+8:32PM 
+Again as per the steps created the Data folder to store our database context
+and altered the data as per my names of the application and..
+saved the program.....
+Rebuild it and run it again...
+Comitted to github repo....
+Sucessfully :)
+Very happy!!!!!!!
+No errors so far..
