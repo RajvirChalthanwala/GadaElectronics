@@ -19,5 +19,9 @@ namespace GadaElectronics.Models
         public int SerialNumber { get; set; }
         public string DisplayClearity { get; set; }
         public int Size { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime LaunchDate { get; set; }
+
+        public int TvRatings { get; set; }
     }
 }

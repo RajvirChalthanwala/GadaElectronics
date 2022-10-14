@@ -31,7 +31,9 @@ namespace GadaElectronics.Models
                         OriginCountry = "North Korea",
                         SerialNumber = 8698456,
                         DisplayClearity = "1440p HD",
-                        Size = 41
+                        Size = 41,
+                        LaunchDate = DateTime.Parse("2021-10-15"),
+                        TvRatings = 1
                     },
 
                     new TonyTv
@@ -41,7 +43,9 @@ namespace GadaElectronics.Models
                         OriginCountry = "Japan",
                         SerialNumber = 7664090,
                         DisplayClearity = "1440p, 2110p HD",
-                        Size = 52
+                        Size = 52,
+                        LaunchDate = DateTime.Parse("2017-08-18"),
+                        TvRatings = 4
                     },
 
                    new TonyTv
@@ -51,7 +55,9 @@ namespace GadaElectronics.Models
                        OriginCountry = "India",
                        SerialNumber = 1290922,
                        DisplayClearity = "1440p HD",
-                       Size = 56
+                       Size = 56,
+                       LaunchDate = DateTime.Parse("2015-10-23"),
+                       TvRatings = 5
                    },
 
                     new TonyTv
@@ -61,7 +67,9 @@ namespace GadaElectronics.Models
                         OriginCountry = "China",
                         SerialNumber = 3567547,
                         DisplayClearity = "1440p, 2110p HD XHDR",
-                        Size = 44
+                        Size = 44,
+                        LaunchDate = DateTime.Parse("2012-10-13"),
+                        TvRatings = 3
                     },
                     new TonyTv
                     {
@@ -70,7 +78,9 @@ namespace GadaElectronics.Models
                         OriginCountry = "India",
                         SerialNumber = 4589364,
                         DisplayClearity = "1440p",
-                        Size = 38
+                        Size = 38,
+                        LaunchDate = DateTime.Parse("2022-01-13"),
+                        TvRatings = 3
                     },
                     new TonyTv
                     {
@@ -79,7 +89,9 @@ namespace GadaElectronics.Models
                         OriginCountry = "Canada",
                         SerialNumber = 8143423,
                         DisplayClearity = "2440p XHDR",
-                        Size = 44
+                        Size = 44,
+                        LaunchDate = DateTime.Parse("2004-10-13"),
+                        TvRatings = 2
                     },
                     new TonyTv
                     {
@@ -88,7 +100,9 @@ namespace GadaElectronics.Models
                         OriginCountry = "North Korea",
                         SerialNumber = 2367854,
                         DisplayClearity = "144p",
-                        Size = 76
+                        Size = 76,
+                        LaunchDate = DateTime.Parse("2019-10-18"),
+                        TvRatings = 5
                     },
                     new TonyTv
                     {
@@ -97,7 +111,9 @@ namespace GadaElectronics.Models
                         OriginCountry = "USA",
                         SerialNumber = 5767568,
                         DisplayClearity = "1440p, 3260p HD",
-                        Size = 80
+                        Size = 80,
+                        LaunchDate = DateTime.Parse("2020-11-13"),
+                        TvRatings = 3
                     },
                     new TonyTv
                     {
@@ -106,7 +122,9 @@ namespace GadaElectronics.Models
                         OriginCountry = "USA",
                         SerialNumber = 1234567,
                         DisplayClearity = "1440p, 3200p HD XHDR FULL HD",
-                        Size = 98
+                        Size = 98,
+                        LaunchDate = DateTime.Parse("2002-10-13"),
+                        TvRatings = 1
                     },
                     new TonyTv
                     {
@@ -115,7 +133,9 @@ namespace GadaElectronics.Models
                         OriginCountry = "China",
                         SerialNumber = 8564323,
                         DisplayClearity = "1260p HD",
-                        Size = 39
+                        Size = 39,
+                        LaunchDate = DateTime.Parse("2022-12-13"),
+                        TvRatings = 4
                     }
                 );
                 context.SaveChanges();

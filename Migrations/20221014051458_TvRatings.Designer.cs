@@ -4,14 +4,16 @@ using GadaElectronics.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GadaElectronics.Migrations
 {
     [DbContext(typeof(GadaElectronicsContext))]
-    partial class GadaElectronicsContextModelSnapshot : ModelSnapshot
+    [Migration("20221014051458_TvRatings")]
+    partial class TvRatings
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

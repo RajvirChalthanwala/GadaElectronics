@@ -144,3 +144,19 @@ Secondly, I edited the file Views > TonyTv.cs and changed the expected content..
 now rebuilding the code and running it again....
 Hope it dont show's up error !!!!!
 Let's Check ////
+
+1:10AM
+Error Occured for the database operation failed but i am trying solving it by updating th database for twice,
+Nut it is not working!!!!
+Trying to tally other method and then
+-Run the code again and commit it again.... :(
+
+1:18AM
+Error Solved by Adding Migration with the field name 
+means: "Add-Migration LaunchDate -Context GadaElectronicsContext"
+		"Add-Migration TvRatings -Context GadaElectronicsContext"
+
+Finally, Everything is fine!!! ready to run and rebuild again
+and everything is smooth and nice....
+- commit to github repo...
+and save the content :)

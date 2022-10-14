@@ -40,37 +40,48 @@
             <th>
                 @Html.DisplayNameFor(model => model.TonyTvs[0].Size)
             </th>
-            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.TonyTvs[0].LaunchDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TonyTvs[0].TvRatings)
+            </th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model.TonyTvs)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Brand)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.OriginCountry)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SerialNumber)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DisplayClearity)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Size)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
-            </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OriginCountry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SerialNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisplayClearity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Size)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LaunchDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvRatings)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>
