@@ -20,11 +20,25 @@ namespace GadaElectronics.Controllers
         }
 
         // GET: TonyTvs
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.TonyTv.ToListAsync());
+            var TonyTv = from m in _context.TonyTv
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                TonyTv = TonyTv.Where(s => s.Brand.Contains(searchString));
+            }
+
+            return View(await TonyTv.ToListAsync());
+            // return View(await _context.TonyTv.ToListAsync());
         }
 
+        [HttpPost]
+        public string Index(string searchString, bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + searchString;
+        }   
         // GET: TonyTvs/Details/5
         public async Task<IActionResult> Details(int? id)
         {

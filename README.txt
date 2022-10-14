@@ -120,3 +120,20 @@ Updated code accordingly in Program.cs
 Updatred database in package Manager Comsole 
 Run the application to ncheck the seeded data.
 So far everything is good no changes needed !!!
+
+10:57PM
+Added column type for price and the display property for the Brand Name;
+Crossverified all the files and checked for everything
+Part 6 completed of tutorial.....
+Checking the program code and saving it...
+Already commited to the Git....
+
+11:19PM
+replaced Index method in Tonytvs controller and  tested for filteration in the URL
+added a new form in Index.cshtml in Views TonyTvs...
+filtered the brand name of the TV database and fetching the selected data from the database....
+All clear done!!!!
+No errors occured..... Committed the code to Git hub and Saved the data
+Rebuild the program and run it again.. :)
+Very Happy !!! OHwwwwwww.
+
