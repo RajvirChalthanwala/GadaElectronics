@@ -221,3 +221,20 @@ Moving forward to Azure Deployment and checking if it works or not....
 then after I will commit it to github repository for the final code...
 saved changes untill now.......
 Good so far!!!
+
+1:10 AM
+-Edited the rating field for the Decimal datatype...
+-Run the code..
+-Save the content and sucessfully deployed the web app to the server using Azure
+-Now running the code amd checking if it works or not!!!!
+if it works I will commit the finall web app to the GitHub... repo!
+and when I checked opening my web app to the anyother mobile device it works with all the pages but
+the database page is not deiplayed it shows the error with the deployment...
+
+After sometimes I tried opening the Web app in the mobile device but it is not showing any error
+but when it comes to database showed up... '
+It shows up an error which is still unknowing !!!!
+Finally Deplyed at 1:15 AM
+and commited to GitHub.
+
+Thank you............

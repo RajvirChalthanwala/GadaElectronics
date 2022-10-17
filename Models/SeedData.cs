@@ -33,7 +33,7 @@ namespace GadaElectronics.Models
                         DisplayClearity = "1440p HD",
                         Size = 41,
                         LaunchDate = DateTime.Parse("2021-10-15"),
-                        TvRatings = 1
+                        TvRatings = 4.5M
                     },
 
                     new TonyTv
@@ -45,7 +45,7 @@ namespace GadaElectronics.Models
                         DisplayClearity = "1440p, 2110p HD",
                         Size = 52,
                         LaunchDate = DateTime.Parse("2017-08-18"),
-                        TvRatings = 4
+                        TvRatings = 4.0M
                     },
 
                    new TonyTv
@@ -57,7 +57,7 @@ namespace GadaElectronics.Models
                        DisplayClearity = "1440p HD",
                        Size = 56,
                        LaunchDate = DateTime.Parse("2015-10-23"),
-                       TvRatings = 5
+                       TvRatings = 5.0M
                    },
 
                     new TonyTv
@@ -69,7 +69,7 @@ namespace GadaElectronics.Models
                         DisplayClearity = "1440p, 2110p HD XHDR",
                         Size = 44,
                         LaunchDate = DateTime.Parse("2012-10-13"),
-                        TvRatings = 3
+                        TvRatings = 3.5M
                     },
                     new TonyTv
                     {
@@ -80,7 +80,7 @@ namespace GadaElectronics.Models
                         DisplayClearity = "1440p",
                         Size = 38,
                         LaunchDate = DateTime.Parse("2022-01-13"),
-                        TvRatings = 3
+                        TvRatings = 3.0M
                     },
                     new TonyTv
                     {
@@ -91,7 +91,7 @@ namespace GadaElectronics.Models
                         DisplayClearity = "2440p XHDR",
                         Size = 44,
                         LaunchDate = DateTime.Parse("2004-10-13"),
-                        TvRatings = 2
+                        TvRatings = 2.5M
                     },
                     new TonyTv
                     {
@@ -102,7 +102,7 @@ namespace GadaElectronics.Models
                         DisplayClearity = "144p",
                         Size = 76,
                         LaunchDate = DateTime.Parse("2019-10-18"),
-                        TvRatings = 5
+                        TvRatings = 5.0M
                     },
                     new TonyTv
                     {
@@ -113,7 +113,7 @@ namespace GadaElectronics.Models
                         DisplayClearity = "1440p, 3260p HD",
                         Size = 80,
                         LaunchDate = DateTime.Parse("2020-11-13"),
-                        TvRatings = 3
+                        TvRatings = 3.5M
                     },
                     new TonyTv
                     {
@@ -124,7 +124,7 @@ namespace GadaElectronics.Models
                         DisplayClearity = "1440p, 3200p HD XHDR FULL HD",
                         Size = 98,
                         LaunchDate = DateTime.Parse("2002-10-13"),
-                        TvRatings = 1
+                        TvRatings = 1.0M
                     },
                     new TonyTv
                     {
@@ -135,7 +135,18 @@ namespace GadaElectronics.Models
                         DisplayClearity = "1260p HD",
                         Size = 39,
                         LaunchDate = DateTime.Parse("2022-12-13"),
-                        TvRatings = 4
+                        TvRatings = 4.0M
+                    },
+                    new TonyTv
+                    {
+                        Brand = "Phillips",
+                        Price = 1080.99M,
+                        OriginCountry = "Canada",
+                        SerialNumber = 3564767,
+                        DisplayClearity = "720p HDR",
+                        Size = 41,
+                        LaunchDate = DateTime.Parse("2022-10-13"),
+                        TvRatings = 4.5M
                     }
                 );
                 context.SaveChanges();

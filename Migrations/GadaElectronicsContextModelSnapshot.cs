@@ -27,7 +27,9 @@ namespace GadaElectronics.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Brand")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(60)")
+                        .HasMaxLength(60);
 
                     b.Property<string>("DisplayClearity")
                         .HasColumnType("nvarchar(max)");
@@ -36,10 +38,12 @@ namespace GadaElectronics.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("OriginCountry")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(30)")
+                        .HasMaxLength(30);
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18, 2)");
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("SerialNumber")
                         .HasColumnType("int");
@@ -47,8 +51,8 @@ namespace GadaElectronics.Migrations
                     b.Property<int>("Size")
                         .HasColumnType("int");
 
-                    b.Property<int>("TvRatings")
-                        .HasColumnType("int");
+                    b.Property<decimal>("TvRatings")
+                        .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("Id");
 

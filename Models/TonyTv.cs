@@ -27,7 +27,6 @@ namespace GadaElectronics.Models
         public string OriginCountry { get; set; }
 
 
-        [Range(1, 3000)]
         public int SerialNumber { get; set; }
 
         public string DisplayClearity { get; set; }
@@ -38,6 +37,7 @@ namespace GadaElectronics.Models
         public DateTime LaunchDate { get; set; }
        
         [Range(1, 5)]
-        public int TvRatings { get; set; }
+        [Column(TypeName = "decimal(18, 2)")]
+        public decimal TvRatings { get; set; }
     }
 }
